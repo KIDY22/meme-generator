@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Do You Even Meme Bro?</title>
+    <link rel="stylesheet" href="app.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+</head>
+
+<body>
+    <h1>Do You Even Meme Bro?</h1>
+    <form id="meme-form">
+       <div>
+        URL :
+            <input type="text" name="url" placeholder="Enter image URL" id="image-url" required>
+            
+       </div>
+       
+       <div>
+             Top Text:
+                <input type="text" name="Top Text" placeholder="Text on top of meme" id="top-text" required>
+             
+             </div>
+
+             <div>
+             Bottom Text:
+                <input type="text" name="Bottom Text" placeholder="Text on bottom of meme" id="bottom-text" required>
+            
+             </div>
+         <div id="submit">    
+        <button type="submit">Generate Meme</button>
+         </div>
+    
+         <div id="reset">
+         <button type="reset">Reset</button>
+         </div>
+
+           <!-- <div id="meme-results"></div> -->
+
+     
+    
+    
+        
+    </form>
+    
+    <div id="meme-results">
+        <div id="meme-image"></div>
+        <div id="t-text"></div>
+        <div id="b-text"></div>
+    </div>
+
+            <script src="meme-generator.js"></script>  
+</body>
+
+
+</html>

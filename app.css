@@ -1,0 +1,106 @@
+/* this is where i would style my divs, position my texts and add creativity to my page */
+
+h1{
+    background-color: rgb(241, 239, 239);
+    color: rgb(110, 32, 32)50, 51, 51);
+    text-align: center;
+    padding: 5px;
+    font-family: Playfair Display;
+}
+
+/* how do i place space between the container to add my url and the semicolon */
+#image-url,
+#top-text,
+#bottom-text{
+    height: 1.5rem;
+    width: 60rem;
+    padding: .12rem; 
+    margin-left: 2rem;
+    margin-bottom:.5rem;
+    border: 1px solid lightbrown;
+    text-decoration: underline dotted black;
+    font-family: Playfair Display;
+
+}
+
+ form {
+     background-color: #8d8276;
+        border: 2em;
+        border-radius: 10px;
+        padding: 1em 2em;
+        font-size: .80em;
+        color: #214126;
+        cursor: pointer;
+        box-shadow: 0 0 20px rgb(44, 42, 37);
+        transition: color 0.5s;
+       
+    }
+
+    form button{
+        margin-top: .50rem;
+        font-size: .75rem;
+        font-weight: bold;
+        background-color: #333;
+        color: white;
+        border: none;
+        cursor: pointer;
+        padding: .50rem .5rem;
+        border-radius: 5px;
+        transition: background-color 0.3s ease-in-out;
+    }
+
+    #button {
+        display: inline-block;
+    }
+
+    
+    #input {
+        display:inline-block;
+        
+    }
+
+    #meme-results{
+        position: relative;
+        display: inline-block;
+        text-align: center;
+        width: 60rem;
+        height: 30rem;
+        margin-top:.5rem;
+        
+    }
+   
+
+        
+    
+#b-text div
+#t-text div {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    bottom: 50%;
+    right: 50%;
+}
+
+
+.meme-text-top{
+    position: absolute;
+    left: 417px;
+    top: 38px;
+    z-index: 100;
+    font-size: 49px;
+    color: white;
+}
+
+.meme-text-bottom{
+    position: absolute;
+    left: 397px;
+    bottom: 150px;
+    z-index: 1000;
+    color: white;
+    font-size: 49px;
+}
+
+
+/* i can't figure out why the words arent appearing 
+inside the meme, even after setting the position */
+   
